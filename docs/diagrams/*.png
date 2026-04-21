@@ -1,1 +1,19 @@
-
+C4 – CONTEXTO
+Usuario → EliteWalk ERP → Base de datos
+COMPONENTES
+•	PayrollEngine 
+•	InventoryService 
+•	AuthService 
+C4 – CONTENEDORES
+•	Frontend (Figma UI) 
+•	Backend API 
+•	DB 
+•	Terraform 
+SECUENCIA (NÓMINA)
+Usuario → API → Servicio → DB → Resultado
+DESPLIEGUE
+Cloud → VPC → Backend → DB
+DIAGRAMA DE SECUENCIA (PEDIDOS PRODUCCIÓN)
+DIAGRAMA DE CASOS DE USO
+DIAGRAMA ENTIDAD-RELACIÓN (ER)
+DIAGRAMA DE CLASES
