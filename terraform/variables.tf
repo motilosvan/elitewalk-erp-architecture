@@ -1,11 +1,19 @@
 variable "region" {
-  default = "us-east-1"
+  description = "AWS region"
+  default     = "us-east-1"
+}
+
+variable "ami" {
+  description = "AMI for EC2"
+  default     = "ami-0c55b159cbfafe1f0"
 }
 
 variable "db_user" {
-  default = "admin"
+  description = "Database username"
+  default     = "admin"
 }
 
 variable "db_pass" {
-  default = "12345678"
+  description = "Database password"
+  default     = "12345678"
 }
